@@ -1,0 +1,92 @@
+.maincontainer {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--dark);
+}
+
+.maincontainer .container {
+  width: 80%;
+  margin: auto;
+  color: var(--white);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.maincontainer .container .contaierhead h1 {
+  text-align: center;
+  cursor: pointer;
+}
+.maincontainer .container .contaierhead p {
+  text-align: center;
+  color: var(--light);
+  font-size: 15px;
+}
+.searchbar {
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.searchbar input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background: var(--primary);
+  color: var(--white);
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+.searchbar input:focus {
+  box-shadow: 0 0 10px var(--primary);
+}
+.searchbar input::placeholder {
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+.card {
+  border: none;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px #000;
+}
+.card ul {
+  padding: 0;
+}
+.listItem {
+  list-style: none;
+  border: 1px solid var(--primary);
+  padding: 0 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItem div {
+  width: 100%;
+}
+
+.listItem p:nth-child(1) {
+  margin: 10px 5px 0;
+}
+
+.listItem .viewBtn {
+  background: var(--primary);
+  padding: 8px 10px;
+  font-size: 14px;
+  box-shadow: 0 0 10px var(--primary);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.listItem p:nth-child(2) {
+  color: var(--light);
+  font-size: 12px;
+  margin: 0px 5px 10px;
+}
